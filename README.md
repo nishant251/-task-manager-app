@@ -75,4 +75,4 @@ task-manager/
 
 ## Authors
 
-Student Project - Web Development Course
+Nishant Srivastava- Web Development Course
