@@ -73,6 +73,59 @@ task-manager/
 └── README.md
 ```
 
+
+## Database Design 
+
+The application uses a MySQL database to store tasks.
+
+| Field       | Type      | Description               |
+| ----------- | --------- | ------------------------- |
+| id          | INT       | Unique task ID            |
+| title       | VARCHAR   | Task title                |
+| description | TEXT      | Task details              |
+| due_date    | DATE      | Task deadline             |
+| status      | VARCHAR   | Task status               |
+| remarks     | TEXT      | Additional notes          |
+| created_on  | TIMESTAMP | Task creation time        |
+| updated_on  | TIMESTAMP | Last update time          |
+| created_by  | VARCHAR   | User who created the task |
+| updated_by  | VARCHAR   | User who updated the task |
+
+
+
+
+## Application Architecture
+
+This application follows a MVC style architecture.
+
+Frontend (React)
+       ↓
+REST API (Node.js + Express)
+       ↓
+Database (MySQL)
+
+
+
+## ER Diagram
+
++-------------------+
+|       TASKS       |
++-------------------+
+| id (PK)           |
+| title             |
+| description       |
+| due_date          |
+| status            |
+| remarks           |
+| created_on        |
+| updated_on        |
+| created_by        |
+| updated_by        |
++-------------------+
+
+
+
+
 ## Authors
 
 Nishant Srivastava- Web Development Course
