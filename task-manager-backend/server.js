@@ -9,7 +9,12 @@ const app = express();
 
 // CORS configuration for production
 app.use(cors({
-  origin: ['https://your-frontend-domain.com', 'http://localhost:3000', 'http://localhost:5173'],
+  origin: [
+    'https://task-manager-frontend.vercel.app',
+    'https://your-vercel-domain.vercel.app',
+    'http://localhost:3000', 
+    'http://localhost:5173'
+  ],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'x-user-name', 'x-user-id'],
   credentials: true
