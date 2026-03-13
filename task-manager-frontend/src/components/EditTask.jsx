@@ -14,6 +14,7 @@ function EditTask({ task, updateTask, cancelEdit }) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    e.stopPropagation();
     
     // Format date properly for database
     const formattedDate = dueDate ? dueDate.split('T')[0] : null;

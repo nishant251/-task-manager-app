@@ -336,13 +336,31 @@ body {
 }
 
 /* Edit Task Form Styles */
+.edit-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
 .edit-task-form {
   background: white;
   border: 2px solid #667eea;
   border-radius: 16px;
   padding: 30px;
-  margin-bottom: 20px;
   box-shadow: 0 8px 25px rgba(102, 126, 234, 0.2);
+  max-width: 500px;
+  width: 90%;
+  max-height: 80vh;
+  overflow-y: auto;
+  position: relative;
+  z-index: 1001;
 }
 
 .edit-task-form h3 {

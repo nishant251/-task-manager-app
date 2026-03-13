@@ -158,7 +158,7 @@ function App() {
       </div>
 
       {editingIndex !== null && (
-        <div className="edit-task-form">
+        <div className="edit-overlay">
           <EditTask
             task={filteredTasks[editingIndex]}
             updateTask={updateTask}
