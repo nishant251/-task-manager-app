@@ -10,6 +10,7 @@ const app = express();
 // CORS configuration for production
 app.use(cors({
   origin: [
+    'https://task-manager-frontend-eta.vercel.app',
     'https://task-manager-frontend.vercel.app',
     'https://your-vercel-domain.vercel.app',
     'http://localhost:3000', 
