@@ -127,7 +127,25 @@ Database (MySQL)
 
 
 ## live link  
-task-manager-app-pied-kappa.vercel.app
+# Task Manager App
+
+🚀 Live Demo: https://task-manager-app-pied-kappa.vercel.app
+
+A full-stack task management application built with React, Node.js, Express, and MySQL.
+
+## Tech Stack
+- Frontend: React (Vite)
+- Backend: Node.js + Express
+- Database: MySQL (Railway)
+- Backend Hosting: Render
+- Frontend Hosting: Vercel
+
+## Features
+- Add tasks
+- View tasks
+- Update tasks
+- Delete tasks
+- Search tasks
 
 
 
