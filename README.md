@@ -114,20 +114,20 @@ Database (MySQL)
 
 ## ER Diagram
 
-+-------------------+
-|       TASKS       |
-+-------------------+
-| id (PK)           |
-| title             |
-| description       |
-| due_date          |
-| status            |
-| remarks           |
-| created_on        |
-| updated_on        |
-| created_by        |
-| updated_by        |
-+-------------------+
++--------------------------------------------------------------+
+|                          TASKS                               |
++--------------------------------------------------------------+
+| id (PK)                                                       |
+| title                                                         |
+| description                                                   |
+| due_date                                                      |
+| status                                                        |
+| remarks                                                       |
+| created_on                                                    |
+| updated_on                                                    |
+| created_by                                                    |
+| updated_by                                                    |
++--------------------------------------------------------------+
 
 
 ## Authors
