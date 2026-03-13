@@ -17,6 +17,7 @@ app.use(cors({
     const allowedOrigins = [
       'https://task-manager-frontend-eta.vercel.app',
       'https://task-manager-frontend.vercel.app',
+      'https://task-manager-app-pied-kappa.vercel.app',
       'http://localhost:3000', 
       'http://localhost:5173'
     ];
