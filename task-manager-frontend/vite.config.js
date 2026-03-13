@@ -7,22 +7,7 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
-    sourcemap: true,
-    rollupOptions: {
-      output: {
-        manualChunks(id) {
-          if (id.includes('node_modules')) {
-            if (id.includes('react') || id.includes('react-dom')) {
-              return 'vendor';
-            }
-            if (id.includes('react-router-dom')) {
-              return 'router';
-            }
-            return 'vendor';
-          }
-        }
-      }
-    }
+    sourcemap: false
   },
   server: {
     port: 3000,
